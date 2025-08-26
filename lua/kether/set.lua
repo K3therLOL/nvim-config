@@ -22,6 +22,5 @@ vim.opt.smartcase = true
 vim.opt.gp = "git grep -r -n"
 
 -- Disable mouse
-vim.opt.mouse = nil
-
-
+vim.opt.mouse = ""
+vim.opt.mousescroll = "ver:0,hor:0"
